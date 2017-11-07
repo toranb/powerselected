@@ -1,0 +1,12 @@
+{{#ui-one}}
+  {{#ui-two}}
+    {{#power-select
+      selected=destination
+      options=cities
+      onchange=go
+      as |name|
+    }}
+      {{name}}
+    {{/power-select}}
+  {{/ui-two}}
+{{/ui-one}}
